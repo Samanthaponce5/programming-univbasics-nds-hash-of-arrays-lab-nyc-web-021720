@@ -7,12 +7,6 @@ BASE_HOA = {
   # Should return the array of the 'show' argument
 
 def add_character(show, name)
-i = 0 
-while i < show.length 
-show[i][0]<< name 
-i += 1
-end
-show
-
+BASE_HOA[show] << name
   
 end
