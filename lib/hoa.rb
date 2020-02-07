@@ -9,7 +9,7 @@ BASE_HOA = {
 def add_character(show, name)
 i = 0 
 while i < show.length 
-show[i]<< name 
+show[i][0]<< name 
 i += 1
 end
 show
